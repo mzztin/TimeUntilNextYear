@@ -11,8 +11,3 @@ export function getTimeLeft(deadline: Date | undefined = undefined) {
     'total': date
   }
 }
-
-export function createFormat(deadline: Date | undefined = undefined) {
-  const time = getTimeLeft(deadline)
-  return `${time.days} days, ${time.hours} hours, ${time.minutes} minutes, ${time.seconds} seconds`
-}
