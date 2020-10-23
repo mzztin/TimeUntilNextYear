@@ -1,40 +1,29 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+
+.component-app {
   text-align: center;
-  background-image: url("https://brussels-express.eu/wp-content/uploads/2018/12/photo-1521478413868-1bbd982fa4a5.jpg");
-
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-image: url("../assets/skyline.jpg");
+  background-size: cover;
+  min-height: 100vh;
+  flex-wrap: wrap;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.App-link {
-  color: #61dafb;
+.text {
+  color: whitesmoke;
+  font-size: 48px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.timer {
+  font-size: 64px;
+  color: whitesmoke;
 }
