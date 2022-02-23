@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
-import { createFormat, getTimeLeft } from "../utils"
-
+import { getTimeLeft } from "../utils"
 
 export default class App extends React.Component {
   render() {
