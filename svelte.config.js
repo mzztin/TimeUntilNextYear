@@ -9,9 +9,7 @@ const config = {
 	preprocess: preprocess(),
 
 	kit: {
-		adapter: adapter({
-			fallback: "fallback.html"
-		}),
+		adapter: adapter(),
 		appDir: "app",
 		paths: {
 			base: dev ? "" : "/TimeUntilNextYear"
