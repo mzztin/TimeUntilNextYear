@@ -45,7 +45,7 @@
 
 	body {
         background-repeat: no-repeat;
-        background-size: 100% auto;
+        background-size: auto;
     }
 
 	footer {
