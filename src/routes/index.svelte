@@ -44,10 +44,15 @@
 
 	body {
 		background-image: url("./background.jpg");
-		background-size: cover;
-		background-repeat: no-repeat;
-		border: 20px;
-	}
+        margin: 0;
+        border: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 
 	footer {
 		color: aliceblue;

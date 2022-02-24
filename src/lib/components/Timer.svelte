@@ -18,7 +18,7 @@
 	p {
 		font-family: "Montserrat", Arial, Helvetica, sans-serif;
 		color: aliceblue;
-		font-size: 60px;
+		font-size: 30px;
 	}
 
 	h2 {
@@ -27,7 +27,7 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		font-size: 120px;
+		font-size: 80px;
 		color: aliceblue;
 	}
 
