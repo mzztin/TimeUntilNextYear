@@ -12,6 +12,7 @@ const config = {
 		adapter: adapter({
 			fallback: "fallback.html"
 		}),
+		appDir: "app",
 		paths: {
 			base: dev ? "" : "/TimeUntilNextYear"
 		},
