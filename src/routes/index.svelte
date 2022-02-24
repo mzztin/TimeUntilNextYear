@@ -43,7 +43,7 @@
 	@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 
 	body {
-		background-image: url("./background.jpg");
+		background-image: url("background.jpg");
         margin: 0;
         border: 0;
         padding: 0;
