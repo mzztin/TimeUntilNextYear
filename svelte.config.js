@@ -11,7 +11,7 @@ const config = {
 	kit: {
 		adapter: adapter(),
 		paths: {
-			base: dev ? '' : 'https://mzztin.github.io/TimeUntilNextYear',
+			base: dev ? '' : '/TimeUntilNextYear',
 		}
 	}
 };
