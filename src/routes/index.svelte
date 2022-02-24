@@ -2,6 +2,7 @@
 	import Timer from "$lib/components/Timer.svelte";
 	import { deadlines, isNextYear } from "$lib/utils/deadlines";
 	import { getTimeLeft } from "$lib/utils/time";
+    import bg from "$lib/images/background.jpg";
 
 	const deadlinesIndexed = Object.keys(deadlines);
 	let time = getTimeLeft();
@@ -14,7 +15,7 @@
 	setInterval(reset, 1000);
 </script>
 
-<body />
+<body style="background-image: url({bg});"/>
 
 <Timer {time} text={isNextYear(selectedDeadline) ? "next year" : selectedDeadline} />
 
@@ -43,15 +44,8 @@
 	@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 
 	body {
-		background-image: url("background.jpg");
-        margin: 0;
-        border: 0;
-        padding: 0;
-        height: 100%;
-        width: 100%;
-        background-position: center;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: 100% auto;
     }
 
 	footer {
